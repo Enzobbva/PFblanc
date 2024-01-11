@@ -1,0 +1,48 @@
+/* Responsive */
+
+/* Vista tablet*/
+/* 768px hasta 1023px*/
+
+@media (max-width:1023px) {
+    /*Header*/
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .encabezado .boton {
+        display: none;
+    }
+
+    /*Banner*/
+
+    .contenidoBanner p {
+        font-size: 2.5rem;
+    }
+
+    /*Galeria*/
+
+    .trabajos {
+        margin: 5vh;
+        font-size: 2rem;
+    }
+
+    .trabajos h1 .trabajos p {
+        font-size: inherit;
+    }
+
+    .contenedorTrabajos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/*Ajustes para mobile*/
+/*0px hasta 768px*/
+
+@media (max-width:768px) {
+    .contenedorTrabajos {
+        grid-template-columns: 1fr;
+    }
+}
