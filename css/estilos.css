@@ -111,7 +111,7 @@ body {
   margin: 10vh;
   border-bottom: 1px solid black;
 }
-.trabajos h1 {
+.trabajos h2 {
   color: #b30b7b;
   text-transform: uppercase;
   font-size: 3rem;
@@ -258,7 +258,7 @@ textarea {
     margin: 5vh;
     font-size: 2rem;
   }
-  .trabajos h1 .trabajos p {
+  .trabajos h2 .trabajos p {
     font-size: inherit;
   }
   .contenedorTrabajos {
@@ -271,6 +271,20 @@ textarea {
   .contenedorTrabajos {
     grid-template-columns: 1fr;
   }
+}
+
+.wrapped {
+  position: relative;
+  overflow: hidden;
+  padding-top: 55%;
+}
+
+.wrapped iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
